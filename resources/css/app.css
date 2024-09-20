@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clr-purple{
+    color: #532F88;
+}
+
+.clr-pink{
+    color: #FF69B2;
+}
+
+.bg-purple{
+    background-color:#532F88;
+}
+
+.bg-pink{
+    background-color: #FF69B2;
+}
+
+.bg-department{
+    background-color:#2E3191;
+}
+
+.bg-light-pink{
+    background-color: #f1e0e8;
+}
