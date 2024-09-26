@@ -18,7 +18,7 @@ function ContactSection() {
                     <div className="md:w-1/2"></div>
                 </div>
             </div>
-        </div>
+        </div><hr/>
         </>
     )
 }
