@@ -1,7 +1,10 @@
 import React from 'react'
 
 import MediaBG from 'imgPath/media-bg.jpg'
-import Thumbnail from 'imgPath/gyno.jpg'
+import Thumbnail from './Thumbnail'
+import Video1 from 'imgPath/thumbnail/1.jpg'
+import Video2 from 'imgPath/thumbnail/2.jpg'
+import Video3 from 'imgPath/thumbnail/3.jpg'
 
 function MediaSection() {
     return (
@@ -12,13 +15,13 @@ function MediaSection() {
 
             <div className="grid grid-cols-1 mt-12 md:grid-cols-2 lg:px-20 lg:grid-cols-3 gap-8">
                 <div className="media">
-                    <img src={Thumbnail} alt="aarunya" width="100%" />
+                    <Thumbnail ChannelVideo = {Video1} />
                 </div>
                 <div className="media">
-                    <img src={Thumbnail} alt="aarunya" width="100%" />
+                    <Thumbnail ChannelVideo = {Video2} />
                 </div>
                 <div className="media">
-                    <img src={Thumbnail} alt="aarunya" width="100%" />
+                    <Thumbnail ChannelVideo = {Video3} />
                 </div>
             </div>
         </div>
