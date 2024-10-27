@@ -1,11 +1,14 @@
 import React from 'react'
 import PageBanner from '../common/PageBanner'
-import AboutBanner from 'imgPath/banners/about.png'
+import DkBanner from 'imgPath/banners/dk-about.jpg'
+import MbBanner from 'imgPath/banners/mb-about.jpg'
+import ContentArea from './ContentArea'
 
 function About() {
     return (
         <>
-        <PageBanner Banner = {AboutBanner} />
+        <PageBanner Banner = {DkBanner} MobileBanner = {MbBanner} />
+        <ContentArea />
         </>
     )
 }
